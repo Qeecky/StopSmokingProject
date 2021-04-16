@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mclaren"
+        android:gravity="center_horizontal"
+        android:text="@string/logo"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="200sp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:backgroundTint="@color/white"
+        android:layout_marginHorizontal="50sp"
+        android:textColorHint="@color/white_ccc"
+        android:inputType="textPersonName"
+        android:hint="Введите имя" />
+
+    <TextView
+        android:id="@+id/nameask"
+        android:layout_width="match_parent"
+        android:layout_marginTop="155sp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Как к вам обращаться?" />
+
+    <Button
+        android:id="@+id/buttonRegistr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginHorizontal="60sp"
+        android:textSize="30sp"
+        android:text="ГОТОВО"
+        android:backgroundTint="@color/red_591"
+        android:fontFamily="@font/mclaren"
+        android:layout_marginTop="280sp"/>
+
+
+</RelativeLayout>
