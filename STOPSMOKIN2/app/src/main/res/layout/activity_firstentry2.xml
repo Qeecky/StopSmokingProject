@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/second1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сколько стоят ваши сигареты ?"
+        android:textColor="@color/white"
+        android:layout_marginTop="10sp"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/second2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сколько сигарет вы выкуриваете за день?"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_marginTop="250sp"/>
+    <EditText
+        android:id="@+id/seocnd3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white_ccc"
+        android:backgroundTint="@color/white"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="50sp"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:hint="Введите число"/>
+
+    <Button
+        android:id="@+id/buttonsecond3"
+        android:layout_width="311dp"
+        android:layout_height="74dp"
+        android:layout_marginHorizontal="60sp"
+        android:layout_marginTop="450sp"
+        android:backgroundTint="@color/red_591"
+        android:gravity="center_horizontal"
+        android:text="ГОТОВО"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/second33"
+        android:layout_marginTop="145sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white_ccc"
+        android:layout_marginHorizontal="50sp"
+        android:hint="Введите цену"
+        android:textSize="30sp"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/white_ccc"/>
+
+
+</RelativeLayout>
